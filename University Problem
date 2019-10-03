@@ -16,8 +16,8 @@ public class test {
        Scanner sc = new Scanner(System.in);
        System.out.println("Enter the name of university and no. of depts:");
        String name = sc.next();
-       int no = sc.nextInt();
-       university u = new university(name,no);
+       int num = sc.nextInt();
+       university u = new university(name,num);
        u.fillUniv();
        u.display();
     }
