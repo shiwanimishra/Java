@@ -14,7 +14,7 @@ public class test {
     public static void main(String[] args){
         
        Scanner sc = new Scanner(System.in);
-       System.out.println("Enter the name of university and no. of depts:");
+       System.out.println("ENTER THE NAME OF UNIVERSITY AND NUMBER OF DEPARTMENTS: ");
        String name = sc.next();
        int no = sc.nextInt();
        university u = new university(name,no);
